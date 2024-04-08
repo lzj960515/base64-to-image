@@ -69,7 +69,7 @@ export default function Home() {
                 download="image.png"
                 style={{ textDecoration: "underline", color: "blue" }}
               >
-                image.png
+                image.{fileInfo.extension}
               </a>
             </p>
           </div>
