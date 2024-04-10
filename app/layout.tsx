@@ -11,6 +11,7 @@ const fontSans = FontSans({
 export const metadata: Metadata = {
   title: "Base64 to Image",
   description: "Convert Base64 to images online for free",
+  keywords: ["base64", "image", "converter"],
 };
 
 export default function RootLayout({

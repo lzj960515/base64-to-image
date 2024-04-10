@@ -28,11 +28,12 @@ export default function Home() {
   }, [base64]);
 
   return (
-    <main className="flex flex-col items-start justify-start w-2/3 gap-2 p-24">
+    <main className="flex flex-col items-start justify-start sm:w-2/3 gap-2 sm:p-24 p-6">
       <h1 style={{ fontSize: "2em" }}>Base64 to Image</h1>
       <Textarea
         id="base64Str"
         ref={textareaRef}
+        rows={5}
         placeholder="Type your base64 here."
       />
       <Button
